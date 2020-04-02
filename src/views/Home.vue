@@ -2,12 +2,12 @@
   <div id="Home">
     <section>
       <section v-if="language === 'English'">
-        <p>heck {{language}}</p>
+        <p>Heck {{language}}</p>
       </section>
       <section v-if="language === 'Japanese'">
-        <p>日本語万歳</p>
+        <p>日本語最高</p>
       </section>
-      <p>I am best boi web-developer.</p>
+      <p>Click the button</p>
     </section>
 
     <button @click="changeLanguage()">Language</button>
