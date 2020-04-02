@@ -1,0 +1,128 @@
+<template>
+  <div id="speak">
+    <form @submit="speak">
+      <textarea @change="handleChange" type="text" name="text-input" id="text-input" placeholder="Type a phrase..." />
+      <div>
+        <select @change="voiceChange" id="voice-select">
+          <option v-for="voice in voices" :key="voice.index" v-bind:value="voice.name">{{voice.name}}: {{voice.lang}}</option>
+        </select>
+      </div>
+      <button>Speak it!</button>
+    </form>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Speak",
+  data() {
+    return {
+      voices: [],
+      text: "",
+      selectedVoice: ""
+    }
+  },
+  methods: {
+    // set state for text we want to synthesize
+    handleChange(e) {
+      e.preventDefault()
+      this.text = e.target.value
+    },
+    // select the voice?
+    voiceChange(e) {
+      this.selectedVoice = e.target.value
+      // play the text in state when the selected voice changes
+      this.speak(e)
+    },
+    speak(e) {
+      e.preventDefault()
+      const synth = window.speechSynthesis;
+
+      // to prevent blown out ear drums
+      if(synth.speaking) {
+        console.error('Already speaking...');
+        return;
+      }
+
+      // if there is text in state when speak is called, get the text
+      if(this.text !== "") {
+        const speakText = new SpeechSynthesisUtterance(this.text);
+
+        speakText.onerror = () => {
+          console.error('Something went wrong, try again later.')
+        }
+
+        // get the selected voice
+        this.voices.forEach(voice => {
+          if (voice.name === this.selectedVoice) {
+            speakText.voice = voice;
+          }
+        })
+        // set the rate of playback and pitch to 1, because anything else doesn't work well
+        speakText.rate = 1;
+        speakText.pitch = 1;
+
+        // let's hear that beautiful synthesized voice
+        synth.speak(speakText);
+      }
+    }
+  },
+  created() {
+    const synth = window.speechSynthesis;
+
+    // getting voices is an async operation, so we will call this a few lines later
+    const getVoices = () => {
+      this.voices = synth.getVoices();
+    }
+
+    if(typeof InstallTrigger !== 'undefined') {
+      getVoices();
+    }
+
+    if(synth.onvoiceschanged !== undefined) {
+      synth.onvoiceschanged = getVoices;
+    }
+  }
+}
+</script>
+
+<style scoped>
+  #speak {
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  #text-input {
+    padding: 7px;
+    border: none;
+    width: 375px;
+    min-width: 375px;
+    max-width: 375px;
+    min-height: 50px;
+    max-height: 50vh;
+    border-radius: 3px;
+  }
+
+  #voice-select {
+    margin: 10px 0;
+    border: none;
+    padding: 5px;
+    width: 375px;
+    height: 30px;
+    border-radius: 3px;
+  }
+
+  button {
+    border: none;
+    padding: 5px;
+    width: 375px;
+    background: #fff;
+    border-radius: 3px;
+  }
+</style>
