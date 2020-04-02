@@ -2,7 +2,7 @@
   <div id="Home">
     <section>
       <section v-if="language === 'English'">
-        <p>Heck {{language}}</p>
+        <p>{{language}} is ok.</p>
       </section>
       <section v-if="language === 'Japanese'">
         <p>日本語最高</p>
