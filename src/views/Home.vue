@@ -4,17 +4,17 @@
       <h2>Web Developer</h2>
       <section class="links-list">
         <ul>
-          <li><a href="https://github.com/juiceboxh3ro"><i class="fab fa-github-square"></i></a></li>
+          <li><a target="_blank" href="https://github.com/juiceboxh3ro"><i class="fab fa-github-square"></i></a></li>
           <li class="idk">github</li>
         </ul>
         <div class="spacer"></div>
         <ul>
-          <li><a href="https://www.linkedin.com/in/jesse-goodburne/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/jesse-goodburne/"><i class="fab fa-linkedin"></i></a></li>
           <li class="idk">linkedin</li>
         </ul>
         <div class="spacer"></div>
         <ul>
-          <li><a href="https://unsplash.com/@juiceboxh3ro"><i class="fas fa-camera-retro"></i></a></li>
+          <li><a target="_blank" href="https://unsplash.com/@juiceboxh3ro"><i class="fas fa-camera-retro"></i></a></li>
           <li>unsplash</li>
         </ul>
       </section>
@@ -53,16 +53,6 @@ export default {
     line-height: 1.4;
     font-size: 1.8rem;
   }
-  button {
-    margin: 15px 0;
-    padding: 4px 13px;
-    border: none;
-    border-radius: 50%;
-    background: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    color: #333;
-  }
   .card {
     width: 50%;
     margin: 50px auto;
@@ -85,6 +75,9 @@ export default {
   a {
     color: white;
     font-size: 12rem;
+    transition: 0.2s ease-in;
   }
-  a:hover { color: #EB018E; }
+  a:hover {
+    color: #EB018E;
+  }
 </style>

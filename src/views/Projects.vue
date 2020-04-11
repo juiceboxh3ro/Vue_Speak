@@ -11,7 +11,7 @@
       <a href="https://www.kakitsune.com/">Kakitsune</a>
       <section>
         <img :src="require('../assets/fox-full.png')" alt="kakitsune logo of a fox" />
-        <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). Built on React with the goal to later switch to Svelte.</p>
+        <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but the mascot is eager.</p>
       </section>
     </div>
 
