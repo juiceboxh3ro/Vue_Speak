@@ -17,9 +17,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/speak',
+      path: '/projects',
+      name: 'projects',
+      component: () => import(/* webpackChunkName: "projects" */ './views/Projects.vue')
+    },
+    {
+      path: '/projects/speak',
       name: 'speak',
-      component: () => import(/* webpackChunkName: "about" */ './views/Speak.vue')
+      component: () => import(/* webpackChunkName: "speak" */ './views/Speak.vue')
     }
   ]
 })

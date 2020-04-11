@@ -1,14 +1,28 @@
 <template>
-  <div id="speak">
-    <form @submit="speak">
-      <textarea @change="handleChange" type="text" name="text-input" id="text-input" placeholder="Type a phrase..." />
-      <div>
-        <select @change="voiceChange" id="voice-select">
-          <option v-for="voice in voices" :key="voice.index" v-bind:value="voice.name">{{voice.name}}: {{voice.lang}}</option>
-        </select>
-      </div>
-      <button>Speak it!</button>
-    </form>
+  <div>
+    <div id="speak">
+      <form @submit="speak">
+        <textarea @change="handleChange" type="text" name="text-input" id="text-input" placeholder="Type a phrase..." />
+        <div>
+          <select @change="voiceChange" id="voice-select">
+            <option v-for="voice in voices" :key="voice.index" v-bind:value="voice.name">{{voice.name}}: {{voice.lang}}</option>
+          </select>
+        </div>
+        <button>Speak it!</button>
+      </form>
+    </div>
+    <div class="how-to">
+      <ol>
+        <li>Enter the text that you want synthesized</li>
+        <li>Choose a language*</li>
+        <li>Press the "Speak it!" button</li>
+      </ol>
+      <section>
+        <p class="asterisk">* If you're on mobile the voice may be automatically decided based on your phone's language setting.</p>
+        <p class="asterisk">If the list appears blank, try refreshing the page.</p>
+        <p class="asterisk">For best results use Chrome, as it will give you access to the same voice list that Google Translate uses.</p>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -107,6 +121,7 @@ export default {
     min-height: 50px;
     max-height: 50vh;
     border-radius: 3px;
+    font-size: 1.4rem;
   }
 
   #voice-select {
@@ -116,6 +131,7 @@ export default {
     width: 375px;
     height: 30px;
     border-radius: 3px;
+    font-size: 1.4rem;
   }
 
   button {
@@ -124,5 +140,24 @@ export default {
     width: 375px;
     background: #fff;
     border-radius: 3px;
+    font-size: 1.4rem;
+  }
+
+  section { margin-top: 20px; }
+
+  .how-to {
+    width: 23%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .how-to li {
+    font-size: 1.3rem;
+  }
+
+  .asterisk {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: left;
   }
 </style>

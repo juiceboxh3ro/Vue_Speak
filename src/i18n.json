@@ -1,0 +1,16 @@
+{
+  "lan": ["en", "jp", "kr"],
+  "default": "en",
+  "data": {
+    "name": {
+      "en": "Jesse Goodburne",
+      "jp": "グッドバーン・ジェシー",
+      "kr": "굿번 제시"
+    },
+    "title": {
+      "en": "Jesse Goodburne Vue Portfolio",
+      "jp": "グッドバーン・ジェシーのポートフォリオ",
+      "kr": "굿번 제시의 포트폴리오"
+    }
+  }
+}

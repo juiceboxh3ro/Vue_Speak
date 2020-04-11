@@ -1,17 +1,24 @@
 <template>
   <header class="header">
-    <h1>A Vue Portfolio</h1>
+    <h1 v-if="language === 'English'">Jesse Goodburne</h1>
+    <h1 class="japanese" v-if="language === 'Japanese'">グッドバーン・ジェシー</h1>
     <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
-      <router-link to="/speak">Speak API</router-link>
+      <router-link to="/projects">Projects</router-link>
+      <button @click="changeLanguage()"><i class="fas fa-globe"></i></button>
     </div>
   </header>
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex';
 export default {
-  name: "Header"
+  name: "Header",
+  methods: {
+    ...mapActions(['changeLanguage'])
+  },
+  computed: mapGetters(['language'])
 }
 </script>
 
@@ -22,24 +29,41 @@ export default {
     color: #fff;
     text-align: center;
     padding-top: 15px;
+    box-shadow: 0 0 1px rgba(255,255,255,0.7), 0 0 3px 1px rgba(255,255,255,0.3);
   }
 
-  .header h1 { font-family: 'Pacifico', sans-serif; }
+  .header h1 {
+    font-family: 'Pacifico', sans-serif;
+    line-height: 1.8;
+    font-size: 4.2rem;
+  }
 
   .header a {
     color: #fff;
     margin-right: 25px;
     text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 2.4rem;
   }
 
   #nav {
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin: -15px 50px 0 0;
   }
 
-  .router-link-exact-active {
-    padding-bottom: 5px;
-    border-bottom: 2px solid #fff;
+  .router-link-exact-active { border-bottom: 2px solid #fff; }
+
+  button {
+    margin-top: -15px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.4rem;
+    color: white;
+    outline: none;
   }
+  button:hover { cursor: pointer; }
 </style>
