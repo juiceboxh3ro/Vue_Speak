@@ -8,7 +8,7 @@
     </div>
 
     <div class="card">
-      <a href="https://www.kakitsune.com/">Kakitsune</a>
+      <a target="_blank" href="https://www.kakitsune.com/">Kakitsune</a>
       <section>
         <img :src="require('../assets/fox-full.png')" alt="kakitsune logo of a fox" />
         <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but the mascot is eager.</p>
@@ -16,7 +16,7 @@
     </div>
 
     <div class="card">
-      <p>LinkedIn Clone</p>
+      <a target="_blank" href="https://tender-goldstine-17b8ed.netlify.com/#/">LinkedIn Clone</a>
       <section>
         <p>A copy of my LinkedIn profile page built in React.</p>
       </section>

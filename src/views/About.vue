@@ -7,7 +7,7 @@
       </div>
     </section>
     <section class="card">
-      <p>工事中</p>
+      <p>Skills and such coming soon.</p>
     </section>
   </div>
 </template>

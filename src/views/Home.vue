@@ -21,7 +21,7 @@
       <h3>Quick Facts:</h3>
       <ul>
         <li class="lh2">I am currently attending Lambda School for full-stack web development.</li>
-        <li class="lh2">I'm excited to program every day, and am self-teaching Vue JS and Ruby.</li>
+        <li class="lh2">I'm excited to program every day, and am self-teaching Vue, Ruby, Postgres, and Firebase.</li>
         <li class="lh2">I hold a B.A. in Japanese Language from Temple University, Japan Campus.</li>
         <li class="lh2">I've had my photography featured in a gallery.</li>
       </ul>
