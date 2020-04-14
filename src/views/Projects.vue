@@ -11,7 +11,7 @@
       <a target="_blank" href="https://www.kakitsune.com/">Kakitsune</a>
       <section>
         <img :src="require('../assets/fox-full.png')" alt="kakitsune logo of a fox" />
-        <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but the mascot is eager.</p>
+        <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but the mascot is eager!</p>
       </section>
     </div>
 
@@ -47,29 +47,32 @@ export default {
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
   }
-
   .card {
     padding: 15px 20px;
     border-radius: 3px;
     background: rgba(255,255,255,0.2);
     box-shadow: 0 0 1px rgba(255,255,255,0.7), 0 0 3px 1px rgba(255,255,255,0.3);
   }
-
   a {
     color: white;
     font-size: 1.8rem;
   }
-
   section {
     margin-top: 20px;
     display: flex;
   }
-
   .card p { font-size: 1.8rem; }
-
   img {
     width: 25%;
     height: 25%;
     margin-right: 20px;
+  }
+  @media(max-width: 500px) {
+    #deck {
+      grid-template-columns: 1fr;
+    }
+    section {
+      display: inline-block;
+    }
   }
 </style>

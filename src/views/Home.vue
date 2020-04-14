@@ -12,18 +12,12 @@
           <li><a target="_blank" href="https://www.linkedin.com/in/jesse-goodburne/"><i class="fab fa-linkedin"></i></a></li>
           <li class="idk">linkedin</li>
         </ul>
-        <div class="spacer"></div>
-        <ul>
-          <li><a target="_blank" href="https://unsplash.com/@juiceboxh3ro"><i class="fas fa-camera-retro"></i></a></li>
-          <li>unsplash</li>
-        </ul>
       </section>
       <h3>Quick Facts:</h3>
       <ul>
         <li class="lh2">I am currently attending Lambda School for full-stack web development.</li>
         <li class="lh2">I'm excited to program every day, and am self-teaching Vue, Ruby, Postgres, and Firebase.</li>
         <li class="lh2">I hold a B.A. in Japanese Language from Temple University, Japan Campus.</li>
-        <li class="lh2">I've had my photography featured in a gallery.</li>
       </ul>
     </section>
   </div>
@@ -79,5 +73,10 @@ export default {
   }
   a:hover {
     color: #EB018E;
+  }
+  @media(max-width: 500px) {
+    .card {
+      width: 90%;
+    }
   }
 </style>

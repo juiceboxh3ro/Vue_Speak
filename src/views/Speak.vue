@@ -18,9 +18,9 @@
         <li>Press the "Speak it!" button</li>
       </ol>
       <section>
-        <p class="asterisk">* If you're on mobile the voice may be automatically decided based on your phone's language setting.</p>
+        <p class="asterisk">* The voice may be automatically set based on your language settings.</p>
         <p class="asterisk">If the list appears blank, try refreshing the page.</p>
-        <p class="asterisk">For best results use Chrome, as it will give you access to the same voice list that Google Translate uses.</p>
+        <p class="asterisk">For a better experience use Google Chrome, as you will have access to more voices.</p>
       </section>
     </div>
   </div>
@@ -111,7 +111,6 @@ export default {
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
   }
-
   #text-input {
     padding: 7px;
     border: none;
@@ -123,7 +122,6 @@ export default {
     border-radius: 3px;
     font-size: 1.4rem;
   }
-
   #voice-select {
     margin: 10px 0;
     border: none;
@@ -133,7 +131,6 @@ export default {
     border-radius: 3px;
     font-size: 1.4rem;
   }
-
   button {
     border: none;
     padding: 5px;
@@ -142,22 +139,42 @@ export default {
     border-radius: 3px;
     font-size: 1.4rem;
   }
-
   section { margin-top: 20px; }
-
   .how-to {
     width: 23%;
     margin: 0 auto;
     text-align: center;
   }
-
   .how-to li {
     font-size: 1.3rem;
   }
-
   .asterisk {
     margin-bottom: 10px;
     font-size: 1rem;
     text-align: left;
+  }
+  @media(max-width: 500px) {
+    #speak {
+      width: 90%;
+      display: block;
+    }
+    #text-input {
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    #voice-select {
+      width: 100%;
+    }
+    button {
+      width: 100%;
+    }
+    .how-to {
+      width: 100%;
+    }
+    .asterisk {
+      width: 90%;
+      margin: 0 auto 10px;
+    }
   }
 </style>
