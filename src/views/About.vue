@@ -18,6 +18,7 @@
           <p>I also do all my own styling, no Bootstrap or the like, and it's one of the things I most enjoy about the front-end as it satisfies my creativity.</p>
         </section>
       </section>
+
       <section class="card">
         <h3>University Education</h3>
         <section>
@@ -26,6 +27,7 @@
           <p>I volunteered at an organization which is working towards women's equality in Japan as part of the research process for my graduation thesis.</p>
         </section>
       </section>
+
       <section class="card">
         <h3>Language</h3>
         <section>
@@ -35,6 +37,7 @@
           <p>In addition to Japanese I can also speak conversational Korean, and am interested in Chinese and Portuguese.</p>
         </section>
       </section>
+      
       <section class="card">
         <h3>Creative</h3>
         <section>
@@ -59,13 +62,6 @@ export default {
 <style scoped>
   #About {
     margin: 20px auto;
-  }
-  #container {
-    width: 105vw;
-    height: 80vh;
-    margin: 0 auto;
-    overflow: scroll;
-    overflow-x: hidden;
   }
   .card {
     width: 50%;
@@ -101,13 +97,6 @@ export default {
     margin-bottom: 20px;
   }
   @media(max-width: 500px) {
-    #container {
-      width: 100vw;
-      height: 80vh;
-      margin: 0 auto;
-      overflow: visible;
-      overflow-x: hidden;
-    }
     .card {
       width: 90%;
     }
