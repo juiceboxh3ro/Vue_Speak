@@ -22,7 +22,7 @@
       <section class="card">
         <h3>University Education</h3>
         <section>
-          <p>I have a B.A. in Japanese language from <a href="https://www.tuj.ac.jp/jp/index.html">Temple University, Japan Campus</a>which is in Tokyo, Japan.</p>
+          <p>I have a B.A. in Japanese language from <a href="https://www.tuj.ac.jp/jp/index.html">Temple University, Japan Campus</a> which is in Tokyo, Japan.</p>
           <p>I attended there from August 2015 to May 2019 and graduated with a 3.2 GPA.</p><br>
           <p>I volunteered at an organization which is working towards women's equality in Japan as part of the research process for my graduation thesis.</p>
         </section>

@@ -3,9 +3,9 @@
     <h1 v-if="language === 'English'">Jesse Goodburne</h1>
     <h1 class="japanese" v-if="language === 'Japanese'">グッドバーン・ジェシー</h1>
     <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/projects">Projects</router-link>
+      <router-link :to="{ name: 'home' }">Home</router-link>
+      <router-link :to="{ name: 'about' }">About</router-link>
+      <router-link :to="{ name: 'projects' }">Projects</router-link>
       <button @click="changeLanguage()"><i class="fas fa-globe"></i></button>
     </div>
   </header>

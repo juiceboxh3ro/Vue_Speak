@@ -1,7 +1,7 @@
 <template>
   <div id="deck">
     <div class="card">
-      <router-link to="/projects/speak">Speech API</router-link>
+      <router-link :to="{ name: 'speak' }">Speech API</router-link>
       <section>
         <p>A simple page which utilizes your browser's speech synthisizer API. Built on Vue.</p>
       </section>
