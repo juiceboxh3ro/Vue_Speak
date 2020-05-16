@@ -57,6 +57,7 @@ export default {
     color: white;
     font-size: 1.8rem;
   }
+  a:hover { color: #EB018E; }
   section {
     margin-top: 20px;
     display: flex;

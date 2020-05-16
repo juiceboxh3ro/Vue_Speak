@@ -38,14 +38,16 @@ export default {
   overflow: visible;
   overflow-x: hidden;
 }
+
 #app::before {
   content: "";
   position: fixed;
   height: 100vh;
   width: 100vw;
   z-index: -10;
-  background-image: linear-gradient(135deg, rgba(38,129,188,1), rgba(235,0,141,1));
+  background: #36393f;
 }
+
 p {
   font-size: 1rem;
 }

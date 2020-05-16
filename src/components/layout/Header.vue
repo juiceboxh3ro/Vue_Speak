@@ -43,6 +43,7 @@ export default {
     padding-bottom: 5px;
     font-size: 2.4rem;
   }
+  #header a:hover { color: #EB018E; }
   #nav {
     display: flex;
     justify-content: flex-end;
@@ -57,7 +58,7 @@ export default {
     background: none;
     font-family: 'Raleway', sans-serif;
     font-size: 3.4rem;
-    color: white;
+    color: #fff;
     outline: none;
   }
   button:hover { cursor: pointer; }

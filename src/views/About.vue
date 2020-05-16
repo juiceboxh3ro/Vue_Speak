@@ -84,16 +84,17 @@ export default {
     font-size: 1.6rem;
   }
   a {
-    color: white;
+    color: #fff;
     font-size: 1.6rem;
   }
+  a:hover { color: #EB018E; }
   abbr {
     font-size: 1.6rem;
     cursor: pointer;
   }
   #edu {
     padding-bottom: 10px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff;
     margin-bottom: 20px;
   }
   @media(max-width: 500px) {
