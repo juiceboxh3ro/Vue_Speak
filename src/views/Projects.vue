@@ -11,7 +11,7 @@
       <a target="_blank" href="https://www.kakitsune.com/">Kakitsune</a>
       <section>
         <img :src="require('../assets/fox-full.png')" alt="kakitsune logo of a fox" />
-        <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but the mascot is eager!</p>
+        <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but it's getting close and the mascot is eager!</p>
       </section>
     </div>
 
@@ -25,7 +25,7 @@
     <div class="card">
       <p>Vue Portfolio</p>
       <section>
-        <p>This website! Vue JS is not taught as part of the curriculum at Lambda School. It is something I have chosen to pursue outside of the general studies. <br /> I am also studying Ruby and might make a Rails project later.</p>
+        <p>This website! Vue JS is not taught as part of the curriculum at Lambda School. It is something I have chosen to pursue outside of the general studies.</p>
       </section>
     </div>
   </div>
