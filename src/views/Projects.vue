@@ -1,6 +1,12 @@
 <template>
   <div id="deck">
     <div class="card">
+      <router-link href="https://fz-error-report.herokuapp.com/">FZ Error Report Form</router-link>
+      <section>
+        <p>A form to submit errors or typos in the From Zero! books. Uses the PERN stack and is deployed to Heroku.</p>
+      </section>
+    </div>
+    <div class="card">
       <router-link :to="{ name: 'speak' }">Speech API</router-link>
       <section>
         <p>A simple page which utilizes your browser's speech synthisizer API. Built on Vue.</p>
