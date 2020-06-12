@@ -1,7 +1,7 @@
 <template>
   <div id="deck">
     <div class="card">
-      <a href="https://fz-error-report.herokuapp.com/">FZ Error Report Form</a>
+      <a href="https://fz-error-report.herokuapp.com/">FZ! Error Report Form</a>
       <section>
         <p>A form to submit errors or typos in the From Zero! books. Uses the PERN stack and is deployed to Heroku.</p>
       </section>
