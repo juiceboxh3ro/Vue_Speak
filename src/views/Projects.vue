@@ -4,6 +4,7 @@
       <a href="https://fz-error-report.herokuapp.com/">FZ! Error Report Form</a>
       <section>
         <p>A form to submit errors or typos in the From Zero! books. Uses the PERN stack and is deployed to Heroku.</p>
+        <a href="https://github.com/juiceboxh3ro/error-report">Github Repository</a>
       </section>
     </div>
     <div class="card">
