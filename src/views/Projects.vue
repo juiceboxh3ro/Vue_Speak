@@ -3,8 +3,7 @@
     <div class="card">
       <a href="https://nifty-curie-9d4d3d.netlify.app/">Anpi</a>
       <section>
-        <p>Mock-up SPA of an earthquake safety confirmation app.</p>
-        <p>Built on Vue.js 2 and utilizes the Google Maps API and USGS seismic data API.</p>
+        <p>Mock-up SPA of an earthquake safety confirmation app. Built on Vue.js 2 and utilizes the Google Maps API and USGS seismic data API.</p>
       </section>
     </div>
     <div class="card">
