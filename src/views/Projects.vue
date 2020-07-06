@@ -1,6 +1,23 @@
 <template>
   <div id="deck">
     <div class="card">
+      <a href="https://nifty-curie-9d4d3d.netlify.app/">Anpi</a>
+      <section>
+        <p>Mock-up SPA of an earthquake safety confirmation app.</p>
+        <p>Built on Vue.js 2 and utilizes the Google Maps API and USGS seismic data API.</p>
+      </section>
+    </div>
+    <div class="card">
+      <a href="https://master.d37ier1k83jxk6.amplifyapp.com/">Story Squad</a>
+      <section>
+        <div>
+          <p>Story Squad is a creative competition platform that encourages children to sharpen their language, drawing, teamwork, and critical thinking skills through an engaging, weekly battle.</p>
+          <p>I worked on the front-end of this app, which is built on React, Typescript, and MaterialUI.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="card">
       <a href="https://fz-error-report.herokuapp.com/">FZ! Error Report Form</a>
       <section>
         <div>
@@ -9,10 +26,11 @@
         </div>
       </section>
     </div>
+
     <div class="card">
       <router-link :to="{ name: 'speak' }">Speech API</router-link>
       <section>
-        <p>A simple page which utilizes your browser's speech synthisizer API. Built on Vue.</p>
+        <p>A simple page which utilizes your browser's speech synthisizer API. Built on Vue.js.</p>
       </section>
     </div>
 
@@ -21,20 +39,6 @@
       <section>
         <img :src="require('../assets/fox-full.png')" alt="kakitsune logo of a fox" />
         <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but it's getting close and the mascot is eager!</p>
-      </section>
-    </div>
-
-    <div class="card">
-      <a target="_blank" href="https://tender-goldstine-17b8ed.netlify.com/#/">LinkedIn Clone</a>
-      <section>
-        <p>A copy of my LinkedIn profile page built in React.</p>
-      </section>
-    </div>
-
-    <div class="card">
-      <p>Vue Portfolio</p>
-      <section>
-        <p>This website! Vue JS is not taught as part of the curriculum at Lambda School. It is something I have chosen to pursue outside of the general studies.</p>
       </section>
     </div>
   </div>

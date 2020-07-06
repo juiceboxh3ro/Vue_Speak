@@ -6,13 +6,12 @@
         <section id="edu">
           <h4>Education</h4>
           <p>In <a href="https://lambdaschool.com/">Lambda School</a> I was taught the following:</p>
-          <p>Front-end: HTML5, CSS3, JavaScript, React</p>
-          <p>Back-end: SQLite</p><br>
+          <p>HTML5, CSS3, JavaScript, React, Python</p><br>
         </section>
         <section id="self">
           <h4>Self-Study</h4>
           <p>I have also branched out on my own after the daily lectures:</p>
-          <p>Vue, Ruby, PostgreSQL, MySQL, Firebase</p>
+          <p>Vue.js, Ruby, PostgreSQL, MySQL, Firebase, MongoDB</p>
           <br>
           <p>I especially like Vue because of the community behind it, and how friendly it has been to self-study.</p>
           <p>I also do all my own styling, no Bootstrap or the like, and it's one of the things I most enjoy about the front-end as it satisfies my creativity.</p>
@@ -44,7 +43,7 @@
           <p>I'm a hobbyist photographer and have had my photographs featured in a gallery.</p>
           <p>I was the videographer for Japanese From Zero's 2018 Sapporo footage, which is the company I was previously employed at.</p>
           <p>I also photographed the 2017 TEDx event held by the TEDx club in my university.</p><br>
-          <p>I've put some of my photos on <a href="https://unsplash.com/@juiceboxh3ro">Unsplash</a>, but you can also find me on <a href="https://www.instagram.com/juiceboxh3ro/">Instagram</a> if you're curious!</p>
+          <p>You can find me on <a href="https://www.instagram.com/juiceboxh3ro/">Instagram</a> if you're curious!</p>
         </section>
       </section>
     </div>

@@ -45,7 +45,7 @@ export default {
   height: 100vh;
   width: 100vw;
   z-index: -10;
-  background: #36393f;
+  background: #2c2e31;
 }
 
 p {
