@@ -15,8 +15,8 @@
       </section>
       <h3>Quick Facts:</h3>
       <ul>
-        <li class="lh2">I am currently attending Lambda School for full-stack web development.</li>
-        <li class="lh2">I'm excited to program every day, and am self-teaching React Native, Vue, Python, Postgres, MongoDB, and Firebase.</li>
+        <li class="lh2">I attended Lambda School for full-stack web development.</li>
+        <li class="lh2">I'm excited to program every day, and am self-teaching React Native, Flutter, and Vue.</li>
         <li class="lh2">I hold a B.A. in Japanese Language from Temple University, Japan Campus.</li>
       </ul>
     </section>

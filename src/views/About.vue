@@ -5,16 +5,13 @@
         <h3>Technical Skills</h3>
         <section id="edu">
           <h4>Education</h4>
-          <p>In <a href="https://lambdaschool.com/">Lambda School</a> I was taught the following:</p>
-          <p>HTML5, CSS3, JavaScript, React, Python</p><br>
+          <p>During my time at <a href="https://lambdaschool.com/">Lambda School</a> I was taught the following:</p>
+          <p>HTML5, CSS3, JavaScript, React</p><br>
         </section>
         <section id="self">
           <h4>Self-Study</h4>
-          <p>I have also branched out on my own after the daily lectures:</p>
-          <p>Vue.js, Ruby, PostgreSQL, MySQL, Firebase, MongoDB</p>
-          <br>
-          <p>I especially like Vue because of the community behind it, and how friendly it has been to self-study.</p>
-          <p>I also do all my own styling, no Bootstrap or the like, and it's one of the things I most enjoy about the front-end as it satisfies my creativity.</p>
+          <p>I'm currently self-teaching the following:</p>
+          <p>Vue.js, React Native, Flutter, PostgreSQL, MySQL, Firebase, MongoDB</p>
         </section>
       </section>
 
