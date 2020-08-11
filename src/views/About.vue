@@ -28,9 +28,9 @@
         <h3>Language</h3>
         <section>
           <p>Did I mention that I'm a Japanese major?</p>
-          <p>I'm planning to take the highest or second highest level of the <abbr title="Japanese Language Proficiency Test">JLPT</abbr> at the end of this year.</p>
+          <p>I'm able to utilise business level Japanese, and I'm studying to take the highest level of the <abbr title="Japanese Language Proficiency Test">JLPT</abbr> next year.</p>
           <br>
-          <p>In addition to Japanese I can also speak conversational Korean, and am interested in Chinese and Portuguese.</p>
+          <p>In addition to Japanese I can also speak conversational Korean.</p>
         </section>
       </section>
       
