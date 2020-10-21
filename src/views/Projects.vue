@@ -32,14 +32,6 @@
         <p>A simple page which utilizes your browser's speech synthisizer API. Built on Vue.js.</p>
       </section>
     </div>
-
-    <div class="card">
-      <a target="_blank" href="https://www.kakitsune.com/">Kakitsune</a>
-      <section>
-        <img :src="require('../assets/fox-full.png')" alt="kakitsune logo of a fox" />
-        <p>A web app with the goal of teaching the user how to write Japanese characters (kana and kanji). The website isn't live yet, but it's getting close and the mascot is eager!</p>
-      </section>
-    </div>
   </div>
 </template>
 

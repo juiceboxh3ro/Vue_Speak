@@ -11,7 +11,7 @@
         <section id="self">
           <h4>Self-Study</h4>
           <p>I'm currently self-teaching the following:</p>
-          <p>Vue.js, React Native, Flutter, PostgreSQL, MySQL, Firebase, MongoDB</p>
+          <p>Vue.js, Flutter, React, SQL and NoSQL databases</p>
         </section>
       </section>
 
@@ -38,7 +38,6 @@
         <h3>Creative</h3>
         <section>
           <p>I'm a hobbyist photographer and have had my photographs featured in a gallery.</p>
-          <p>I was the videographer for Japanese From Zero's 2018 Sapporo footage, which is the company I was previously employed at.</p>
           <p>I also photographed the 2017 TEDx event held by the TEDx club in my university.</p><br>
           <p>You can find me on <a href="https://www.instagram.com/juiceboxh3ro/">Instagram</a> if you're curious!</p>
         </section>
