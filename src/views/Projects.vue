@@ -1,6 +1,12 @@
 <template>
   <div id="deck">
     <div class="card">
+      <a href="https://heuristic-booth-2cda36.netlify.app/">Weather Buddy</a>
+      <section>
+        <p>Simple weather app using OpenWeatherMap's API, built with React and Tailwind CSS, uses local storage to persist past queries.</p>
+      </section>
+    </div>
+    <div class="card">
       <a href="https://nifty-curie-9d4d3d.netlify.app/">Anpi</a>
       <section>
         <p>Mock-up SPA of an earthquake safety confirmation app. Built on Vue.js 2 and utilizes the Google Maps API and USGS seismic data API.</p>
