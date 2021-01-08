@@ -58,6 +58,7 @@ export default {
   #About {
     margin: 20px auto;
   }
+
   .card {
     width: 50%;
     margin: 50px auto;

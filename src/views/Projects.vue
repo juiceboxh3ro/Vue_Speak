@@ -1,6 +1,12 @@
 <template>
   <div id="deck">
     <div class="card">
+      <a href="https://www.genkan.app/">Genkan</a>
+      <section>
+        <p>Currently the scaffold of my language exchange app, built with the MEVN stack with a mobile app (soon!) written in Flutter.</p>
+      </section>
+    </div>
+    <div class="card">
       <a href="https://heuristic-booth-2cda36.netlify.app/">Weather Buddy</a>
       <section>
         <p>Simple weather app using OpenWeatherMap's API, built with React and Tailwind CSS, uses local storage to persist past queries.</p>
