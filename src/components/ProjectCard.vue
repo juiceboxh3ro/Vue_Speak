@@ -59,9 +59,7 @@ a {
   font-size: 2rem;
 }
 
-a:hover, a:active { color: #EB018E; }
-
-a:visited { color: white; }
+a:hover { color: #EB018E; }
 
 p {
   font-size: 1.8rem;

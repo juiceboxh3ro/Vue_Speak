@@ -2,16 +2,16 @@
 <div id="About">
   <div id="container">
     <section class="card">
-      <h3>Technical Skills</h3>
-      <section id="edu">
-        <h4>Education</h4>
-        <p>During my time at <a href="https://lambdaschool.com/">Lambda School</a> I was taught the following:</p>
-        <p>HTML5, CSS3, JavaScript, React</p><br>
-      </section>
+      <h3>Web Development Skills</h3>
       <section id="self">
         <h4>Self-Study</h4>
         <p>I'm currently self-teaching the following:</p>
-        <p>Vue.js, Flutter, React, SQL and NoSQL databases</p>
+        <p>Vue.js, Flutter, React, GraphQL, Postgres, MongoDB</p>
+      </section>
+      <section id="edu">
+        <h4>Education</h4>
+        <p>During my time at <a href="https://lambdaschool.com/">Lambda School</a> I was taught the following:</p>
+        <p>HTML5, CSS3, JavaScript, React, SQLite3</p><br>
       </section>
     </section>
 
@@ -20,11 +20,12 @@
       <section>
         <p>I have a B.A. in Japanese language from <a href="https://www.tuj.ac.jp/jp/index.html">Temple University, Japan Campus</a> which is in Tokyo, Japan.</p>
         <p>I attended there from August 2015 to May 2019 and graduated with a 3.2 GPA.</p><br>
+        <p>I'm able to utilize business level Japanese, and I'm studying to take the highest level of the <abbr title="Japanese Language Proficiency Test">JLPT</abbr> this year.</p><br/>
         <p>I volunteered at an organization which is working towards women's equality in Japan as part of the research process for my graduation thesis.</p>
       </section>
     </section>
 
-    <section class="card">
+    <!-- <section class="card">
       <h3>Language</h3>
       <section>
         <p>Did I mention that I'm a Japanese major?</p>
@@ -32,16 +33,16 @@
         <br>
         <p>In addition to Japanese I can also speak conversational Korean.</p>
       </section>
-    </section>
+    </section> -->
     
-    <section class="card">
+    <!-- <section class="card">
       <h3>Creative</h3>
       <section>
         <p>I'm a hobbyist photographer and have had my photographs featured in a gallery.</p>
         <p>I also photographed the 2017 TEDx event held by the TEDx club in my university.</p><br>
         <p>You can find me on <a href="https://www.instagram.com/juiceboxh3ro/">Instagram</a> if you're curious!</p>
       </section>
-    </section>
+    </section> -->
   </div>
 </div>
 </template>
@@ -95,7 +96,7 @@ abbr {
   cursor: wait;
 }
 
-#edu {
+#self {
   padding-bottom: 10px;
   border-bottom: 1px solid #fff;
   margin-bottom: 20px;
