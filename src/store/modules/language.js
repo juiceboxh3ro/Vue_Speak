@@ -14,11 +14,8 @@ const actions = {
 
 const mutations = {
   changeLanguage: (state, lang) => {
-    if(lang==="English") {
-      state.language="Japanese"
-    } else {
-      state.language="English"
-    }
+    if (lang==="English") return state.language="Japanese"
+    return state.language="English"    
   }
 };
 

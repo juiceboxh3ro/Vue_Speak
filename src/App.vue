@@ -6,16 +6,9 @@
 </template>
 
 <script>
-import Header from './components/layout/Header';
-import { i18n, lan } from './unit/const'
+import Header from './components/Header';
 export default {
   name: 'App',
-  computed: {
-    name: () => i18n.name[lan],
-    title: () => i18n.title[lan]
-  },
-  // i'm not sure what i want to do with i18n yet
-  // specifically i don't understand the RegExp line in ./unit/const.js
   components: {
     Header
   }

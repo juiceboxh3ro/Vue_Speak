@@ -21,15 +21,5 @@ export default new Router({
       name: 'projects',
       component: () => import(/* webpackChunkName: "projects" */ './views/Projects.vue')
     },
-    {
-      path: '/projects/speak',
-      name: 'speak',
-      component: () => import(/* webpackChunkName: "speak" */ './views/Speak.vue')
-    },
-    {
-      path: '/projects/face',
-      name: 'face',
-      component: () => import(/* webpackChunkName: "face" */ './views/Face.vue')
-    }
   ]
 })
