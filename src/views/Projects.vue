@@ -6,7 +6,7 @@
       link="https://www.genkan.app/"
       projectName="Genkan"
       tech="Flutter, Vue.js, Nuxt.js, Express, Node.js, MongoDB"
-      description="My current passion project: a language and culture exchange app."
+      description="My in-progress project: a language and culture exchange app."
     >
       <a href="https://www.genkan.app/"><img src="../assets/genkan.png" alt=""></a>
     </ProjectCard>

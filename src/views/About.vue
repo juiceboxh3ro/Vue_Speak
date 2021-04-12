@@ -6,7 +6,7 @@
       <section id="self">
         <h4>Self-Study</h4>
         <p>I'm currently self-teaching the following:</p>
-        <p>Vue.js, Flutter, React, GraphQL, Postgres, MongoDB</p>
+        <p>Vue.js, Ruby, Flutter, MongoDB</p>
       </section>
       <section id="edu">
         <h4>Education</h4>
